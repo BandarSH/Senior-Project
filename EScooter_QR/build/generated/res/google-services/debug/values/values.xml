@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">666462149455-7v7g0qoujfjt9ipoa69atvd3ofacvll8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://testingseniorproject1-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">666462149455</string>
+    <string name="google_api_key" translatable="false">AIzaSyCWJVhfSNHf5hrxKDDEigYHJ2KZhpASHJo</string>
+    <string name="google_app_id" translatable="false">1:666462149455:android:a11e6c72eaf10d2710833a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCWJVhfSNHf5hrxKDDEigYHJ2KZhpASHJo</string>
+    <string name="google_storage_bucket" translatable="false">testingseniorproject1.appspot.com</string>
+    <string name="project_id" translatable="false">testingseniorproject1</string>
+</resources>
