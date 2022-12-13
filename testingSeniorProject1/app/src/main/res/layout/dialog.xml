@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/closeButton"
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select Date and Time"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/selectDate"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/selectDateTv"
+            android:layout_height="wrap_content"
+            android:text="Select date" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/fiveMinutesRadioButton">
+
+            <RadioButton
+                android:id="@+id/fiveMinutesRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="5"
+                android:text="5 minutes" />
+
+            <RadioButton
+                android:id="@+id/tenMinutesRadioButton"
+                android:layout_width="wrap_content"
+                android:tag="10"
+                android:layout_height="wrap_content"
+                android:text="10 minutes" />
+
+            <RadioButton
+                android:id="@+id/fifteenMinutesRadioButton"
+                android:layout_width="wrap_content"
+                android:tag="15"
+                android:layout_height="wrap_content"
+                android:text="15 minutes" />
+
+            <RadioButton
+                android:id="@+id/twentyMinutesRadioButton"
+                android:layout_width="wrap_content"
+                android:tag="20"
+                android:layout_height="wrap_content"
+                android:text="20 minutes" />
+
+            <RadioButton
+                android:id="@+id/thirtyMinutesRadioButton"
+                android:layout_width="wrap_content"
+                android:tag="30"
+                android:layout_height="wrap_content"
+                android:text="30 minutes" />
+
+            <RadioButton
+                android:id="@+id/sixtyMinutesRadioButton"
+                android:tag="60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="60 minutes" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Submit" />
+
+</LinearLayout>
